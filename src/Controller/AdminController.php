@@ -26,9 +26,6 @@ class AdminController extends AbstractController
     ) {
     }
 
-    // -------------------------------------------------------------------------
-    // GET /api/admin/users
-    // -------------------------------------------------------------------------
     #[Route('/api/admin/users', name: 'api_admin_users_list', methods: ['GET'])]
     public function listUsers(): JsonResponse
     {

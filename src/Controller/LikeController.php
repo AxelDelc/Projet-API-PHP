@@ -21,9 +21,6 @@ class LikeController extends AbstractController
     ) {
     }
 
-    // -------------------------------------------------------------------------
-    // POST /api/posts/{postId}/like  (authenticated, toggle)
-    // -------------------------------------------------------------------------
     #[Route('/api/posts/{postId}/like', name: 'api_posts_like', methods: ['POST'])]
     public function toggle(string $postId): JsonResponse
     {

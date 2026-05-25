@@ -22,9 +22,6 @@ class CommentController extends AbstractController
     ) {
     }
 
-    // -------------------------------------------------------------------------
-    // GET /api/posts/{postId}/comments  (public)
-    // -------------------------------------------------------------------------
     #[Route('/api/posts/{postId}/comments', name: 'api_comments_list', methods: ['GET'])]
     public function list(string $postId): JsonResponse
     {

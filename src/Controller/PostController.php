@@ -20,9 +20,6 @@ class PostController extends AbstractController
     ) {
     }
 
-    // -------------------------------------------------------------------------
-    // GET /api/posts  (public)
-    // -------------------------------------------------------------------------
     #[Route('/api/posts', name: 'api_posts_list', methods: ['GET'])]
     public function list(Request $request): JsonResponse
     {
