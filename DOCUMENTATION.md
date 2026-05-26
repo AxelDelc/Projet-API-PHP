@@ -1,3 +1,7 @@
+# Projet PHP - 2026
+**HOUDART KERYAN**
+**DELCROIX AXEL**
+
 # Documentation Technique — Photo API
 
 ## 0. Installation (nouveau poste)
